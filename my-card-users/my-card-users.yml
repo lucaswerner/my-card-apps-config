@@ -1,5 +1,0 @@
-spring:
-  datasource:
-    url: jdbc:mysql://localhost:3306/my_card_users?useSSL=false&useTimezone=true&serverTimezone=UTC&allowPublicKeyRetrieval=true
-    username: root
-    password: mypassword
