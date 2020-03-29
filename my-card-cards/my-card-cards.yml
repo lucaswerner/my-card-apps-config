@@ -3,11 +3,3 @@ spring:
     url: jdbc:mysql://localhost:3306/my_card_cards?useSSL=false&useTimezone=true&serverTimezone=UTC&allowPublicKeyRetrieval=true
     username: root
     password: mypassword
-
-hystrix:
-  command:
-    default:
-      execution:
-        isolation:
-          thread:
-            timeoutInMilliseconds: 3000
