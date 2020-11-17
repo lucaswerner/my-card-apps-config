@@ -1,5 +1,5 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/my_card_bill?useSSL=false&useTimezone=true&serverTimezone=UTC&allowPublicKeyRetrieval=true
+    url: jdbc:mysql://localhost:3309/my_card_bill?useSSL=false&useTimezone=true&serverTimezone=UTC&allowPublicKeyRetrieval=true
     username: root
-    password: mypassword
+    password: my-card-bill-pwd
