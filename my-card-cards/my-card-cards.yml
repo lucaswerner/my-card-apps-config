@@ -1,5 +1,5 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/my_card_cards_db
+    url: jdbc:postgresql://localhost:5432/my_card_cards_db?createDatabaseIfNotExist=true&useSSL=false
     username: my_card_cards_user
     password: my-card-cards-pwd
